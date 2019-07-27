@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css starts here*/
+/*border box*/
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+/*wrapper*/
+.wrapper {
+	max-width: 100%;
+	padding: 0 5rem;
+	/*margin: 0 auto;*/
+}
+/*.padding {
+	padding: 30px 0;
+}*/
+/*general css*/
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	/*background: linear-gradient(#DE6262, #FFB88C);*/
+	background-color: #DE6262;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.dpwrapper {
+	display: flex;
+	padding-top: 5rem;
+	/*justify-content: space-between;*/
+	align-items: center;
+	border-top: 1rem dashed white;
+	margin-top: 6rem;
+}
+.dp {
+	flex-basis: 23%;
+}
+.dp img {
+	width: 15rem;
+	height: 15rem;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+.dpname {
+	flex-basis: 77%;
+	color: white;
+}
+.dpname h1 {
+	font-size: 7rem;
+}
+.content {
+	color: white;
+	text-align: center;
+	vertical-align: center;
+	font-size: 6rem;
+	padding-top: 15rem;
+	line-height: 1.5;
+	letter-spacing: 1rem;
+}
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 6rem;
+	width: 100%;
+}
+.options {
+	background-color: white;
+	padding-bottom: 100%;
+	border-radius: 5rem;
+}
+.optionwrapper {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 7rem;
+	margin-top: 4rem;
+}
+.optionwrapper h3 {
+	font-size: 6rem;
+}
+.title {
+	color: black;
+	font-size: 6rem;
+	text-align: center;
+	font-weight: bold;
+}
+.friends {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 50%;
+	border: 0.5rem solid aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3.5rem 0;
+}
+.friends img {
+	width: 16rem;
+	height: 16rem;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+.side {
+	display: flex;
+	align-items: center;
+}
+.sidep {
+	color: black;
+	font-size: 6rem;
+	font-weight: bold;
+	margin-left: 5rem;
+}
+.opt {
+	text-align: center;
+	font-size: 5rem;
+	margin-top: 60rem;
+}
